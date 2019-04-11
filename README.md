@@ -14,9 +14,27 @@ The Arduino uno was used as the system microcontroller. The two untrasonic senso
 When the water level in the tank goes below 10% the relay contacts(Normally open) are clossed which in turn opens the pump which pumps water from the Reservour to the tank.When the water level in the tank reaches 80% the MCU opens the relay contacts hence closing the pump.The system also ensures that the pump doesnt pump dry(When there's no water in the reservour). 
 
 ### PIN CONFIGURATION
-	##### ARDUINO		 ##### TANK ULTRASONIC
+	ARDUINO		TANK ULTRASONIC
 	D2		TRIG
 	D3 		ECHO
+	GND 		GND
+	VCC		VCC
 	
+	ARDUINO 	RESERVE ULTRASONIC
+	D4		TRIG
+	D5		ECHO
+	GND 		GND
+	VCC		VCC
+	
+	ARDUINO 	LCD I2C
+	SCL 		A5
+	SDA 		A4
+	GND 		GND
+	VCC		VCC
+	
+	ARDUINO 	RELAY
+	D7 		IN1
+	GND 		GND
+	VCC 		VCC
 	
 	
