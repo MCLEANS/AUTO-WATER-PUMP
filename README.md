@@ -7,7 +7,7 @@
 	-Two buckets(Tank and Reservour)
 	-5V relay
 	-16X2 LCD display
-	-Ultrasonic Sensor x2
+	-Ultrasonic Sensor x2.
 	
 ### OPERATION
 The Arduino uno was used as the system microcontroller. The two untrasonic sensors each placed at the top of each bucket were used to measure the water level in both the tank and the reservour.
