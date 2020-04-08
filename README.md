@@ -1,8 +1,8 @@
 # AUTOMATIC PUMP SYSTEM
 
 ### COMPONENTS
-  	-Arduino Uno
-	-Jumper wires
+  	-Arduino Uno.
+	-Jumper wires.
 	-12 DC Water pump
 	-Two buckets(Tank and Reservour)
 	-5V relay
